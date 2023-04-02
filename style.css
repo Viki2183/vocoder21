@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+  
+}
+.container h4{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 23px;
+}
+p{
+    
+    text-align: center; 
+    font-size: 23px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text{
+    padding: 0%;
+    text-align: left;
+}
+input{
+    border: 2px solid black;
+    width: 55%;
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 25px 0px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: aliceblue;
+    background-color: rgb(79, 21, 216);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width: 72px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>used vehicle</title>
+    <link rel="stylesheet" href="style1.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body >
+    <img class ="bg" src="TY05-RTO.jpg" alt="rto office">
+    <div class="container" style="background-color: beige;">
+        <h1>Welcome to registration form</h1><br>
+        <h1>for the change in the ownership of  used vehicles</h1>
+        <h4>enter details </h4>
+        <form action="first.php" method="post"><br><br>
+            <p class="text">previuos owner name</p>
+            <input type="text" name="name" id="name" placeholder="name" >
+            <p class="text">new owner name</p>
+            <input type="text" name="name" id="name" placeholder="name" >
+            <p class="text">Phonenumber</p>
+            <input type="phone" name="phone_number" id="number" placeholder="number" min="1000000000" max="999999999">
+            <p class="text">Car registeration number</p>
+            <input type="varchar" name="car_reg_number" id="regnumber" placeholder="regnumber">
+            <p class="text">email</p>
+            <input type="email" name="email" id="mail" placeholder="mail">
+            <p class="text">aadhar card number</p>
+            <input type="number" name="aadhar" id="aadhar" placeholder="aadhar number">
+        
+            <button class="btn">submit</button>&emsp;
+           <!-- <button class="btn">reset</button>-->
+        </form>
+    </div>
+    <script src="ind.js"></script>
+    <a href="login.php"><button>logout</button></a> 
+    <!--INSERT INTO `new register` (`Sr.no`, `Name`, `phone number`, `car reg number`, `email`, `date`) VALUES ('1', 'rahul', '9865743289', 'GJ21ds4455', 'hytrddrh@gmai.com', current_timestamp());-->
+</body>
+</html>

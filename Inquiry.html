@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inquiry{
+            border: solid black 2px;
+            background-color: white;
+            font-size: xx-large;
+            margin:5% 20% 0 20%;
+            background-color:rgb(249, 249, 166);
+        }
+        #heading{
+            text-align: center;
+            background-color: wheat;
+           color: red;
+        }
+        #main{
+            color:rgb(93, 9, 249);
+        }
+        #in1,#in3,#in2{
+            width:60%;
+            border: solid black 1px;
+        }
+        #in1{
+            margin-left: 5.5%;
+        }
+        #in2{
+            margin-left: 5%;
+        }
+        #in3{
+            margin-left: 2.5%;
+        }#in{
+        border: solid black 1px;}
+        body{
+            background-color: rgb(102, 189, 239);
+        }
+        .set{
+            padding:0 0 0 2%;
+            font-size:large;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #submit{
+            text-align: center;
+            font-size:large;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color:rgb(3, 3, 3);
+            width:10%;
+            border:solid rgba(8, 8, 8, 0) 4px;
+            margin-left: 40%;
+            margin-bottom: 2%;   
+            padding: 0.25% 0.25% 0.25% 0.25%;
+        }
+        a{
+            color: azure;
+            text-decoration: none;
+        }
+     </style>
+
+</head>
+<body >
+    <form>
+   <div class="inquiry">
+    <p id="heading">INQUIRY</p>
+    <div id="main">
+        <hr> <p class="set">Name: <input type="text" placeholder="ENTER NAME" id="in1" name="fullname" required> </input></p> <hr>
+   <p class="set">E-mail: <input type="email" placeholder="abc@yahoo.com" id="in2" name="mail" required></p>  <hr>
+   <p class="set">Contact No: <input type="tel" id="in" maxlength="10" name="number" required></input> </p>  <hr>
+   <p class="set">Message: <textarea id="in3" name="msg" rows="5" maxlength="350" required> </textarea></p>  <hr>
+   <div id="submit"><label><a href="Inquiry2.html">Continue</a></label></div>
+</div>
+</form>
+</html>
